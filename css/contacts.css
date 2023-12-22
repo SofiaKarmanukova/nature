@@ -1,0 +1,40 @@
+/* *Contacts */
+
+body {
+	background-color: #f2f3b6;
+	overflow: hidden;
+}
+
+.contactsTitle { 
+	color: #b57470;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+.contactInfo {
+	margin-top: 100px;
+}
+
+.contactsLine {
+	position: absolute;
+	left: 105px;
+	top: 320px;
+	width: 160px;
+	height: 15px;
+	z-index: -1;
+	background: #cfbdfe;
+}
+
+.contactsText {
+	color: #b57470;
+	font-size: 18px;
+}
+
+.contactInfoContainer {
+	display: flex;
+}
+
+.contactImg {
+	margin-top: 100px;
+	margin-left: auto;
+}

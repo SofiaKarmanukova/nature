@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ПРИРОДА</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<a href="index.html">
+					<img src="img/logo.png" alt="" class="logo" />
+				</a>
+				<h1 class="logoText">ECOLIFE</h1>
+				<div class="mainMenu">
+					<a href="about.html">О компании</a>
+					<a href="news.html">Новости</a>
+					<a href="projects.html">Проекты</a>
+					<a href="partnership.html">Партнеры</a>
+					<a href="contacts.html">Контакты</a>
+					<div class="mainLine"></div>
+				</div>
+			</header>
+			<div class="mainInfo">
+				<img src="img/main.png" alt="" class="mainImg" />
+				<div class="mainInfoText">
+					<h1 class="mainTitle">ECOLIFE</h1>
+					<p class="mainText">
+						Заботимся о природе и боремся за законные права народа на здоровье,
+						чистые воздух, землю и воду
+					</p>
+					<button class="volunteerBtn">ПОМОЧЬ ПРИРОДЕ</button>
+					<p class="saveText">Сохраним природу вместе!</p>
+					<div class="lineSaveText"></div>
+				</div>
+				<div class="modalSuccess">
+					<div class="modalSuccessWindow">
+						<div class="modalSuccessClose">X</div>
+						<h1>Спасибо, ваша заявка отправлена!</h1>
+					</div>
+				</div>
+				<div id="openModal" class="modalDialog">
+					<div class="modalWindow">
+						<a href="#close" title="Закрыть" class="close">X</a>
+						<h1>Сохрание природы</h1>
+						<p>Учетная запись на участие:</p>
+						<form name="nature">
+							<p>
+								<b>Имя:</b><br />
+								<input type="text" size="40"  class="modalField"/>
+							</p>
+							<p>
+								<b>Фамилия:</b><br />
+								<input type="text" size="40"  class="modalField"/>
+							</p>
+							<p>
+								<b>Электронная почта:</b><br />
+								<input type="text" size="40" class="modalField"/>
+							</p>
+							<p>
+								<b>Ваш пол:</b><br />
+								<input type="radio" name="browser" value="ie" />Женский <br />
+								<input type="radio" name="browser" value="opera" />Мужской<br />
+							</p>
+							<p>
+								В каком проекте вы бы хотели участвовать?
+								</p>
+								<p>В рамках проекта кем бы
+								хотели быть? </p>
+								<textarea name="comment" cols="50" rows="4" class="modalField"></textarea>
+							</p>
+						 
+								<button class="submitBtn" >Отправить</button>
+								<button type="reset"   class="resetBtn" >Очистить</button>
+						</form>
+					</div>
+					
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
